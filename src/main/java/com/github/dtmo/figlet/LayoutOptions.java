@@ -173,7 +173,7 @@ public class LayoutOptions {
 	 *            The old layout value to convert into a full layout value.
 	 * @return The full layout value.
 	 */
-	public static int newLayoutFromOldLayout(final int oldLayout) {
+	public static int fullLayoutFromOldLayout(final int oldLayout) {
 		final int layout;
 
 		if (oldLayout == -1) {

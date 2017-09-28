@@ -184,7 +184,7 @@ public class FigFontReader {
 			if (arguments.length > 4) {
 				final int oldLayout = Integer.decode(arguments[4]).intValue();
 				fontBuilder.setOldLayout(oldLayout);
-				fontBuilder.setFullLayout(LayoutOptions.newLayoutFromOldLayout(oldLayout));
+				fontBuilder.setFullLayout(LayoutOptions.fullLayoutFromOldLayout(oldLayout));
 			}
 
 			if (arguments.length > 5) {
