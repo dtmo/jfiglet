@@ -1,4 +1,4 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 public class LayoutOptions {
 	/**

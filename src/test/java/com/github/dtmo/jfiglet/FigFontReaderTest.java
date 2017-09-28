@@ -1,8 +1,11 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.github.dtmo.jfiglet.FigFont;
+import com.github.dtmo.jfiglet.FigFontReader;
 
 public class FigFontReaderTest {
 

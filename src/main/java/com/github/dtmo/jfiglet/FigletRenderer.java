@@ -1,11 +1,11 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.github.dtmo.figlet.FigFont.FigCharacter;
-import com.github.dtmo.figlet.FigFont.PrintDirection;
+import com.github.dtmo.jfiglet.FigFont.FigCharacter;
+import com.github.dtmo.jfiglet.FigFont.PrintDirection;
 
 /**
  * FigletRenderer renders text as FIGlet text.

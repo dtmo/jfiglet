@@ -1,11 +1,13 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.github.dtmo.figlet.FigFont.PrintDirection;
+import com.github.dtmo.jfiglet.FigFont;
+import com.github.dtmo.jfiglet.FigFontResources;
+import com.github.dtmo.jfiglet.FigFont.PrintDirection;
 
 public class FigFontTest {
 

@@ -1,10 +1,10 @@
-package com.github.dtmo.figlet;
+package com.github.dtmo.jfiglet;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.github.dtmo.figlet.LayoutOptions;
+import com.github.dtmo.jfiglet.LayoutOptions;
 
 public class LayoutOptionsTest {
 
