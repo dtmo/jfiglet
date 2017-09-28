@@ -15,15 +15,15 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	######                                     
-	#     #   ##   #    # #    # ###### #####  
-	#     #  #  #  ##   # ##   # #      #    # 
-	######  #    # # #  # # #  # #####  #    # 
-	#     # ###### #  # # #  # # #      #####  
-	#     # #    # #   ## #   ## #      #   #  
-	######  #    # #    # #    # ###### #    #
+######                                     
+#     #   ##   #    # #    # ###### #####  
+#     #  #  #  ##   # ##   # #      #    # 
+######  #    # # #  # # #  # #####  #    # 
+#     # ###### #  # # #  # # #      #####  
+#     # #    # #   ## #   ## #      #   #  
+######  #    # #    # #    # ###### #    # 
+                                           
 	 * </pre>
-	 * </p>
 	 */
 	public static final String BANNER_FLF = "banner.flf";
 
@@ -34,16 +34,15 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	____  _       
-	|  _ \(_)      
-	| |_) |_  __ _ 
-	|  _ <| |/ _` |
-	| |_) | | (_| |
-	|____/|_|\__, |
-	       __/ |
-	      |___/
+  ____  _       
+ |  _ \(_)      
+ | |_) |_  __ _ 
+ |  _ &lt;| |/ _` |
+ | |_) | | (_| |
+ |____/|_|\__, |
+           __/ |
+          |___/ 
 	 * </pre>
-	 * </p>
 	 */
 	public static final String BIG_FLF = "big.flf";
 
@@ -54,15 +53,14 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	                                         
-	_|_|_|    _|                      _|        
-	_|    _|  _|    _|_|      _|_|_|  _|  _|    
-	_|_|_|    _|  _|    _|  _|        _|_|      
-	_|    _|  _|  _|    _|  _|        _|  _|    
-	_|_|_|    _|    _|_|      _|_|_|  _|    _|
-	 * 
+                                             
+ _|_|_|    _|                      _|        
+ _|    _|  _|    _|_|      _|_|_|  _|  _|    
+ _|_|_|    _|  _|    _|  _|        _|_|      
+ _|    _|  _|  _|    _|  _|        _|  _|    
+ _|_|_|    _|    _|_|      _|_|_|  _|    _|  
+                                             
 	 * </pre>
-	 * </p>
 	 */
 	public static final String BLOCK_FLF = "block.flf";
 
@@ -73,12 +71,11 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	_   _   _   _   _   _  
-	/ \ / \ / \ / \ / \ / \ 
-	( B | u | b | b | l | e )
-	\_/ \_/ \_/ \_/ \_/ \_/
+   _   _   _   _   _   _  
+  / \ / \ / \ / \ / \ / \ 
+ ( B | u | b | b | l | e )
+  \_/ \_/ \_/ \_/ \_/ \_/ 
 	 * </pre>
-	 * </p>
 	 */
 	public static final String BUBBLE_FLF = "bubble.flf";
 
@@ -89,11 +86,10 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	+-+-+-+-+-+-+-+
-	|D|i|g|i|t|a|l|
-	+-+-+-+-+-+-+-+
+ +-+-+-+-+-+-+-+
+ |D|i|g|i|t|a|l|
+ +-+-+-+-+-+-+-+
 	 * </pre>
-	 * </p>
 	 */
 	public static final String DIGITAL_FLF = "digital.flf";
 
@@ -104,14 +100,13 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	_   _            ___ 
-	| |_(_)_ ____   _|_ _|
-	| __| | '__\ \ / /| | 
-	| |_| | |   \ V / | | 
-	\__|_|_|    \_/ |___|
-	 * 
+  _   _            ___ 
+ | |_(_)_ ____   _|_ _|
+ | __| | '__\ \ / /| | 
+ | |_| | |   \ V / | | 
+  \__|_|_|    \_/ |___|
+                       
 	 * </pre>
-	 * </p>
 	 */
 	public static final String IVRIT_FLF = "ivrit.flf";
 
@@ -122,15 +117,14 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	                                       
-	_/                                     
-	_/          _/_/      _/_/_/  _/_/_/    
-	_/        _/_/_/_/  _/    _/  _/    _/   
-	_/        _/        _/    _/  _/    _/    
-	_/_/_/_/    _/_/_/    _/_/_/  _/    _/
-	 * 
+                                           
+    _/                                     
+   _/          _/_/      _/_/_/  _/_/_/    
+  _/        _/_/_/_/  _/    _/  _/    _/   
+ _/        _/        _/    _/  _/    _/    
+_/_/_/_/    _/_/_/    _/_/_/  _/    _/     
+                                           
 	 * </pre>
-	 * </p>
 	 */
 	public static final String LEAN_FLF = "lean.flf";
 
@@ -141,12 +135,11 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	       
-	|\/|o._ o 
-	|  ||| ||
-	 * 
+           
+ |\/|o._ o 
+ |  ||| || 
+           
 	 * </pre>
-	 * </p>
 	 */
 	public static final String MINI_FLF = "mini.flf";
 
@@ -157,9 +150,8 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	 * mnemonic
+mnemonic
 	 * </pre>
-	 * </p>
 	 */
 	public static final String MNEMONIC_FLF = "mnemonic.flf";
 
@@ -170,15 +162,14 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	                        
-	()            o          
-	/\  __   ,_        _ _|_ 
-	/  \/    /  |  |  |/ \_|  
-	/(__/\___/   |_/|_/|__/ |_/
-	               /|       
-	               \|
+                            
+   ()            o          
+   /\  __   ,_        _ _|_ 
+  /  \/    /  |  |  |/ \_|  
+ /(__/\___/   |_/|_/|__/ |_/
+                   /|       
+                   \|       
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SCRIPT_FLF = "script.flf";
 
@@ -189,14 +180,13 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	
-	___|  |               |                
-	\___ \  __ \   _` |  _` |  _ \\ \  \   / 
-	   | | | | (   | (   | (   |\ \  \ /  
-	_____/ _| |_|\__,_|\__,_|\___/  \_/\_/
-	 * 
+
+   ___|  |               |                
+ \___ \  __ \   _` |  _` |  _ \\ \  \   / 
+       | | | | (   | (   | (   |\ \  \ /  
+ _____/ _| |_|\__,_|\__,_|\___/  \_/\_/   
+                                          
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SHADOW_FLF = "shadow.flf";
 
@@ -207,14 +197,13 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	_____ __            __ 
-	/ ___// /___ _____  / /_
-	\__ \/ / __ `/ __ \/ __/
-	___/ / / /_/ / / / / /_  
-	/____/_/\__,_/_/ /_/\__/
-	 * 
+   _____ __            __ 
+  / ___// /___ _____  / /_
+  \__ \/ / __ `/ __ \/ __/
+ ___/ / / /_/ / / / / /_  
+/____/_/\__,_/_/ /_/\__/  
+                          
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SLANT_FLF = "slant.flf";
 
@@ -225,13 +214,12 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	___            _ _ 
-	/ __|_ __  __ _| | |
-	\__ \ '  \/ _` | | |
-	|___/_|_|_\__,_|_|_|
-	 * 
+  ___            _ _ 
+ / __|_ __  __ _| | |
+ \__ \ '  \/ _` | | |
+ |___/_|_|_\__,_|_|_|
+                     
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SMALL_FLF = "small.flf";
 
@@ -242,13 +230,12 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	                               
-	()          ()  _   ,_  o    _|_ 
-	/\ /|/|/|   /\ /   /  | | |/\_|  
-	/(_) | | |_//(_)\__/   |/|/|_/ |_/
-	                       (|
+                                   
+  ()          ()  _   ,_  o    _|_ 
+  /\ /|/|/|   /\ /   /  | | |/\_|  
+ /(_) | | |_//(_)\__/   |/|/|_/ |_/
+                           (|      
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SMSCRIPT_FLF = "smscript.flf";
 
@@ -259,12 +246,11 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	__|        __| |              |              
-	\__ \  ` \ \__ \   \   _` |  _` |  _ \\ \  \ / 
-	____/_|_|_|____/_| _|\__,_|\__,_|\___/ \_/\_/
-	 * 
+   __|        __| |              |              
+ \__ \  ` \ \__ \   \   _` |  _` |  _ \\ \  \ / 
+ ____/_|_|_|____/_| _|\__,_|\__,_|\___/ \_/\_/  
+                                                
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SMSHADOW_FLF = "smshadow.flf";
 
@@ -275,13 +261,12 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	____      ______          __ 
-	/ __/_ _  / __/ /__ ____  / /_
-	_\ \/  ' \_\ \/ / _ `/ _ \/ __/
-	/___/_/_/_/___/_/\_,_/_//_/\__/
-	 * 
+   ____      ______          __ 
+  / __/_ _  / __/ /__ ____  / /_
+ _\ \/  ' \_\ \/ / _ `/ _ \/ __/
+/___/_/_/_/___/_/\_,_/_//_/\__/ 
+                                
 	 * </pre>
-	 * </p>
 	 */
 	public static final String SMSLANT_FLF = "smslant.flf";
 
@@ -292,14 +277,13 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	____  _                  _               _ 
-	/ ___|| |_ __ _ _ __   __| | __ _ _ __ __| |
-	\___ \| __/ _` | '_ \ / _` |/ _` | '__/ _` |
-	___) | || (_| | | | | (_| | (_| | | | (_| |
-	|____/ \__\__,_|_| |_|\__,_|\__,_|_|  \__,_|
-	 * 
+  ____  _                  _               _ 
+ / ___|| |_ __ _ _ __   __| | __ _ _ __ __| |
+ \___ \| __/ _` | '_ \ / _` |/ _` | '__/ _` |
+  ___) | || (_| | | | | (_| | (_| | | | (_| |
+ |____/ \__\__,_|_| |_|\__,_|\__,_|_|  \__,_|
+                                             
 	 * </pre>
-	 * </p>
 	 */
 	public static final String STANDARD_FLF = "standard.flf";
 
@@ -310,9 +294,8 @@ public class FigFontResources {
 	 * </p>
 	 * 
 	 * <pre>
-	 * Terminal
+Terminal
 	 * </pre>
-	 * </p>
 	 */
 	public static final String TERM_FLF = "term.flf";
 

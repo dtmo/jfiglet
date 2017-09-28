@@ -60,7 +60,7 @@ public class FigletRenderer {
 	 * Sets the print direction for rendered FIGlet text. If not set then the
 	 * default print direction of the FIGfont will be used.
 	 * 
-	 * @param printDirection
+	 * @param printDirection The print direction to set.
 	 */
 	public void setPrintDirection(final FigFont.PrintDirection printDirection) {
 		this.printDirection = printDirection;

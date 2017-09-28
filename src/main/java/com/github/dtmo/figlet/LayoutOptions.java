@@ -147,7 +147,8 @@ public class LayoutOptions {
 	}
 
 	/**
-	 * Old_Layout: (Legal values -1 to 63)
+	 * Converts an old layout value (Legal values -1 to 63) into the equivalent full
+	 * layout value.
 	 * 
 	 * <dl>
 	 * <dt>-1</dt>
@@ -169,7 +170,8 @@ public class LayoutOptions {
 	 * </dl>
 	 * 
 	 * @param oldLayout
-	 * @return
+	 *            The old layout value to convert into a full layout value.
+	 * @return The full layout value.
 	 */
 	public static int newLayoutFromOldLayout(final int oldLayout) {
 		final int layout;
