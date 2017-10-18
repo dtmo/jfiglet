@@ -15,6 +15,6 @@
  include "services:webservice"
  */
 
-rootProject.name = "jfiglet"
+//rootProject.name = "jfiglet"
 
-include "jfiglet"
+//include "jfiglet"
