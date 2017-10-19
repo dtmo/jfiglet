@@ -93,6 +93,14 @@ def pomConfig = {
             distribution "repo"
         }
     }
+	
+    developers {
+        developer {
+            id "dtmorgan"
+            name "Damian Morgan"
+            email "dtmorgan@gmail.com"
+        }
+    }
     
     scm {
        url "https://github.com/dtmo/jfiglet"
