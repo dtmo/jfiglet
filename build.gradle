@@ -3,13 +3,11 @@
 
 plugins {
 	id 'java-library'
-	id 'com.jfrog.bintray' version '1.7.3'
-	id 'maven'
+	id 'com.jfrog.bintray' version '1.8.5'
 	id 'maven-publish'
 }
 
 apply plugin: 'java-library'
-apply plugin: 'maven'
 apply plugin: 'maven-publish'
 
 ext {
@@ -18,7 +16,7 @@ ext {
 
 allprojects {
 	group = "com.github.dtmo.jfiglet"
-	version = "1.0.0"
+	version = "1.0.1"
 
 	// In this section you declare where to find the dependencies of your project
 	repositories {
@@ -31,7 +29,7 @@ allprojects {
 }
 
 dependencies {
-	testCompile "junit:junit:4.4"
+	testImplementation "junit:junit:4.4"
 }
 
 bintray {
@@ -52,10 +50,10 @@ bintray {
         licenses = ['BSD 3-Clause']
         vcsUrl = 'https://github.com/dtmo/jfiglet'
         version {
-	        name = '1.0.0'
-	        desc = 'JFiglet 1.0.0'
+	        name = '1.0.1'
+	        desc = 'JFiglet 1.0.1'
 	        released  = new Date()
-	        vcsTag = '1.0.0'
+	        vcsTag = '1.0.1'
 			githubRepo = 'dtmo/jfiglet' //Optional Github repository
 			githubReleaseNotesFile = 'README.md' //Optional Github readme file
 //	        attributes = ['gradle-plugin': 'com.use.less:com.use.less.gradle:gradle-useless-plugin']
@@ -65,9 +63,9 @@ bintray {
 	        }
             //Optional configuration for Maven Central sync of the version
             mavenCentralSync {
-//                sync = true
-                user = project.property('sonatypeUser')
-                password = project.property('sonatypePassword')
+                sync = true
+                user = project.hasProperty('sonatypeUser') ? project.property('sonatypeUser') : System.getenv('SONATYPE_USER')
+                password = project.hasProperty('sonatypePassword') ? project.property('sonatypePassword') : System.getenv('SONATYPE_PASSWORD')
                 close = '1' //Optional property. By default the staging repository is closed and artifacts are released to Maven Central. You can optionally turn this behaviour off (by putting 0 as value) and release the version manually.
             }            
 	    }
@@ -116,7 +114,7 @@ publishing {
             artifact javadocJar
             groupId 'com.github.dtmo.jfiglet'
             artifactId 'jfiglet'
-            version '1.0.0'
+            version '1.0.1'
             pom.withXml {
                 def root = asNode()
                 root.appendNode('description', 'Java FIGfont rendering API')
