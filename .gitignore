@@ -1,6 +1,8 @@
-bin/**
-*.class
-.DS_Store
-
-/.gradle/
-/build/
+**/.DS_Store
+**/.classpath
+**/.gradle/
+**/.project
+**/.settings/
+**/bin/
+**/build/
+**/target/
