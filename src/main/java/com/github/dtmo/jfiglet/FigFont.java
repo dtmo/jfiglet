@@ -508,7 +508,7 @@ public class FigFont {
 		/**
 		 * The direction the font is to be printed by default.
 		 */
-		private PrintDirection printDirection;
+		private PrintDirection printDirection = PrintDirection.LEFT_TO_RIGHT;
 
 		private int fullLayout;
 
